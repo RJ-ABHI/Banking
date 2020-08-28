@@ -156,12 +156,12 @@ class Navbar extends Component {
                 {/* <li className="nav-item" style={{marginLeft:"600px"}}>welcome</li> */}
                 <li className="nav-item" style={{marginLeft:"720px"}}>
         <a className="nav-link waves-effect waves-light ">
-         <Link to="/logout" className=" text-dark">Logout</Link>
+         <Link to="/logout" className="text-dark">Logout</Link>
         </a>
       </li>   
           </ul>
                 :<div className="navbar-nav ml-auto">
-
+  
                 <div className="nav-item ">
                   <NavLink className="text-dark nav-link" to="/">
                     Login

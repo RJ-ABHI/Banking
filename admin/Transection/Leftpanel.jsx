@@ -3,7 +3,7 @@ import axios from "axios";
 
 class LeftPanel extends Component {
   state = {
-    RadioBank: {bank:[],selected1:this.props.selectBank!==undefined?this.props.selectBank:""},
+    RadioBank: {bank:[],selected1:this.props.selectBank!==undefined ?this.props.selectBank:""},
     RadioAmount: {amount:[],selected2:this.props.selectAmount!==undefined?this.props.selectAmount:""},
   };
  async componentDidMount() {

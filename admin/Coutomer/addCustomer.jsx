@@ -38,7 +38,7 @@ class AddCustomer extends Component {
      handleSubmit=async(e)=>{
          e.preventDefault()
         //  console.log(this.state.mainData)
-         let response = await axios.post("http://localhost:2450/register",this.state.mainData)
+         let response = await axios.post("http://localhost:2450/booksapp/newuser",this.state.mainData)
          console.log(response)
          if(response.status===200){
              window.alert("Customer has been successfully added")
